@@ -8,7 +8,7 @@
 
 #### Github Workflow
 
-##### Step 1
+##### Steps
 - Copy the link to this repository
 - Clone this repository by running `git clone repository link`
 - Cd into the repository and run `git status`
