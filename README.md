@@ -8,7 +8,7 @@
 
 #### Github Workflow
 
-##### Steps
+#### Steps
 - Copy the link to this repository
 - Clone this repository by running `git clone repository link`
 - Cd into the repository and run `git status`
@@ -19,3 +19,9 @@
 - Add your code
 - commit your changes and push to your branch
 - Finally create a pull request hng-contact
+
+#### CSS Style Guide
+To avoid style conflicts and over riding of element styles you would be styling elements using classnames that 
+you have attached to your elements 
+
+[Read up for more information](https://github.com/bem-site/bem-method/blob/bem-info-data/method/quick-start/quick-start.en.md)
