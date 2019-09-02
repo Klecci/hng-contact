@@ -1,0 +1,144 @@
+/* line 1, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 6, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+html, body {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  background: #fff;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* line 18, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.main__content {
+  flex: 1 0 auto;
+}
+
+/* line 21, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+h3 {
+  font-size: 24px;
+}
+
+/* line 22, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.navbar {
+  padding: 3rem 0;
+}
+
+/* line 25, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.bs__grey {
+  box-shadow: 10px 10px 5px -6px #d7d7d7;
+}
+
+/* line 29, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* line 34, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.logo a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* line 37, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.logo a h1 {
+  font-size: 36px;
+  color: #000;
+}
+
+/* line 40, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.logo a h1:hover {
+  text-decoration: none;
+  color: #6C63FF;
+  text-transform: uppercase;
+}
+
+/* line 49, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 53, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.col-9, .col-2 {
+  flex-direction: column;
+  display: inline-flex;
+}
+
+/* line 57, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.col-9 {
+  width: 65%;
+}
+
+/* line 60, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.col-2 {
+  width: 35%;
+}
+
+/* line 63, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.contact__form-section {
+  background: #6C63FF;
+  color: #fff;
+  padding: 2rem;
+  height: 400px;
+}
+
+/* line 69, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.contact__info-section {
+  padding: 2rem;
+  background: #fff;
+  height: 400px;
+  margin-bottom: 1rem;
+}
+
+/* line 75, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.top__footer {
+  padding: 2rem;
+  background: #4d4d4d;
+  z-index: 10;
+  margin-top: -5rem;
+}
+
+/* line 81, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+.z-500 {
+  z-index: 500;
+}
+
+/* line 85, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+footer.footer {
+  background: #000;
+  padding: 1.5rem;
+  flex: none;
+}
+
+@media (max-width: 575px) {
+  /* line 2, ../../../HNG/hng-contact/assets/scss/mixins/_mobile.scss */
+  .container {
+    width: 90%;
+  }
+  /* line 5, ../../../HNG/hng-contact/assets/scss/mixins/_mobile.scss */
+  .row {
+    display: block;
+  }
+  /* line 8, ../../../HNG/hng-contact/assets/scss/mixins/_mobile.scss */
+  .col-2, .col-9 {
+    display: block;
+    width: 100%;
+  }
+  /* line 12, ../../../HNG/hng-contact/assets/scss/mixins/_mobile.scss */
+  .top__footer {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
